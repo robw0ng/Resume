@@ -1,10 +1,3 @@
-  %-------------------------
-  % Resume in Latex
-  % Author : Jake Gutierrez
-  % Based off of: https://github.com/sb2nov/resume
-  % License : MIT
-  %------------------------
-
   \documentclass[letterpaper,11pt]{article}
 
   \usepackage{latexsym}
@@ -20,19 +13,6 @@
   \usepackage{tabularx}
   \input{glyphtounicode}
   \usepackage{multicol}
-
-
-  %----------FONT OPTIONS----------
-  % sans-serif
-  % \usepackage[sfdefault]{FiraSans}
-  % \usepackage[sfdefault]{roboto}
-  % \usepackage[sfdefault]{noto-sans}
-  % \usepackage[default]{sourcesanspro}
-
-  % serif
-  % \usepackage{CormorantGaramond}
-  % \usepackage{charter}
-
 
   \pagestyle{fancy}
   \fancyhf{} % clear all header and footer fields
@@ -121,31 +101,35 @@
 \resumeSubHeadingListStart
 \resumeSubheading
 {Stony Brook University}{Stony Brook, NY}
-{Bachelor of Science in Computer Science}{}
-% Aug. 2022 -- May 2026
+{Bachelor of Science in Computer Science}{Aug. 2022 - Dec. 2025}
 \begin{itemize}[leftmargin=0.15in, label={}, itemsep=10pt, topsep=5pt, parsep=0pt, partopsep=0pt]
   \item \small{\textbf{Relevant Coursework:} \textit{Software Development, Software Security, System Fundamentals 1 \& 2, Data Structures \& Algorithms, Analysis of Algorithms, Programming Abstractions, Discrete Mathematics, Linear Algebra}}
 \end{itemize}
 \resumeSubHeadingListEnd
 \vspace{-12pt}
 
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Languages}{: Python, Java, JavaScript, SQL (SQLite \& MySQL), C, HTML/CSS, Rust, OCaml} \\
+        \textbf{Frameworks}{: Flask, Bootstrap} \\
+        \textbf{Libraries}{: pandas, NumPy, python-pptx, jQuery, DataTables} \\
+        % \textbf{Operating Systems}{: Windows, Linux, MacOS} \\
+        \textbf{Developer Tools}{: Git, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+        }}
+\end{itemize}
+
+
+%-------------------------------------------
+
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{Software Developer - Summer College Intern}{Jul. 2024 - Aug. 2024}
-{NYPD Compliance Division}{Manhattan, New York}
-\resumeItemListStart
-\resumeItem{Tackled issues concerning big data processing, user submission forms and database management, bettering the quality of life for staff working on their own tasks.}
-\resumeItem{Developed user-friendly applications to transform complex and inaccessible systems into easily navigable tools for staff with limited computer experience, ensuring accessibility and ease of use for all users.}
-\resumeItem{Singlehandedly improved departmental efficiency by \textbf{86.35\%} through the development and deployment of custom software solutions.}
-\resumeItem{Created and implemented programs that are now in constant use by numerous team members, streamlining their daily responsibilities and significantly enhancing operational effectiveness across the department.}
-\resumeItemListEnd
-
-\resumeSubheading
-{AI Trainer}{Jun. 2024 - Present}
-{Outlier AI}{Remote}
+{Outlier AI}{Jun. 2024 - Present}
+{AI Trainer}{Remote}
 \resumeItemListStart
 \resumeItem{Analyzed the output and backend of an AI model according to given prompts, reviewing the steps the model took, which included Python and SQL processes.}
 
@@ -154,6 +138,16 @@
 \resumeItem{Contributed to the AI model's improvement by providing comprehensive feedback and justifications, enhancing its ability to generate accurate and relevant responses for future prompts.}
 
 % \resumeItem{Maintained detailed records of evaluations and justifications to track progress and identify areas for further enhancement.}
+\resumeItemListEnd
+
+\resumeSubheading
+{NYPD Compliance Division}{Jul. 2024 - Aug. 2024}
+{Software Development Intern}{Manhattan, New York}
+\resumeItemListStart
+\resumeItem{Tackled issues concerning big data processing, user submission forms and database management, bettering the quality of life for staff working on their own tasks.}
+\resumeItem{Developed user-friendly applications to transform complex and inaccessible systems into easily navigable tools for staff with limited computer experience, ensuring accessibility and ease of use for all users.}
+\resumeItem{Singlehandedly improved departmental efficiency by \textbf{86.35\%} through the development and deployment of custom software solutions.}
+\resumeItem{Created and implemented programs that are now in constant use by numerous team members, streamlining their daily responsibilities and significantly enhancing operational effectiveness across the department.}
 \resumeItemListEnd
 
 %           \resumeSubheading
@@ -230,19 +224,4 @@
 %           \resumeItemListEnd
 
 \resumeSubHeadingListEnd
-
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
-\begin{itemize}[leftmargin=0.15in, label={}]
-  \small{\item{
-        \textbf{Languages}{: Python, Java, JavaScript, SQL (SQLite \& MySQL), C, HTML/CSS, Rust, OCaml} \\
-        \textbf{Frameworks}{: Flask, Bootstrap} \\
-        \textbf{Libraries}{: pandas, NumPy, python-pptx, jQuery, DataTables} \\
-        % \textbf{Operating Systems}{: Windows, Linux, MacOS} \\
-        \textbf{Developer Tools}{: Git, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-        }}
-\end{itemize}
-
-
-%-------------------------------------------
 \end{document}
